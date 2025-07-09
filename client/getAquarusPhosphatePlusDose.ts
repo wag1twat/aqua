@@ -1,5 +1,3 @@
-import { normal, volume } from './constants';
-
 /***********************************************************************
  *  Дозировка «AquaRus Фосфат+» для вывода PO₄ к 1.4 mg/L
  *
@@ -15,6 +13,8 @@ import { normal, volume } from './constants';
  *  mPo4    = ΔC × volume                     // mg  чистого PO₄
  *  doseMl  = mPo4 / 5                        // мл «AquaRus Фосфат+»
  **********************************************************************/
+
+import { normal, volume } from './constants';
 
 const potency = 7; // мг PO₄ в 1 мл (можно изменить, если у вас другая партия)
 

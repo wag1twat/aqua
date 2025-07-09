@@ -18,8 +18,8 @@ import { CalendarPlusIcon } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react';
 import { getAquarusPhosphatePlusDose } from './getAquarusPhosphatePlusDose';
-import { getAquarusNitratePlusDose } from './getAquarusNitratePlusDose';
 import { normal } from './constants';
+import { getAquarusNitratePlusDose } from './getAquarusNitratePlusDose';
 
 interface Item {
     date: string;

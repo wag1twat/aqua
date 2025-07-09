@@ -1,4 +1,4 @@
-import ClientDinamicSSR from '@/client/ClientDynamicSSR';
+import ClientDinamicSSR from '@/Client/ClientDynamicSSR';
 
 export default async function Page() {
     try {
